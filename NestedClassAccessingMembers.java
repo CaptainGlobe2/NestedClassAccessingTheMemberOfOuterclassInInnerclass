@@ -33,11 +33,11 @@ public class NestedClassAccessingMembers {
         Car car = new Car("lambo", "8wd");//creating the object of the car
         Car.Engine engine = car.new Engine();//creating the object of the inner class
         engine.setengine();
-        System.out.println("engine type for the car= "+engine.engineType);
+        System.out.println("engine type for the car= "+engine.engineType+" name of the car "+car.carName);
 
         Car car1 = new Car("crysler", "4wd");
         Car.Engine engine1=car1.new Engine();
         engine1.setengine();
-        System.out.println("engine type of the car= "+engine1.engineType);
+        System.out.println("engine type of the car= "+engine1.engineType+engine1.engineType+" name of the car "+car1.carName);
     }
 }
