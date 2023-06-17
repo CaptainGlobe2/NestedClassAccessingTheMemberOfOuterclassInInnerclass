@@ -40,4 +40,5 @@ public class NestedClassAccessingMembers {
         engine1.setengine();
         System.out.println("engine type of the car= "+engine1.engineType+engine1.engineType+" name of the car "+car1.carName);
     }
-}
+}//static nested class can only access the class members and cannot access the other non static class or static class of the another member of the class
+//only nested class can be static other we cannot have static at the top level class
