@@ -27,3 +27,7 @@ public class Enum {
         t1.orderPizza();
     }
 }
+//In Java, enum types are considered to be a special type of class.
+//An enum class can include methods and fields just like regular classes.
+//When we create an enum class, the compiler will create instances (objects) of each enum constants
+// Also, all enum constant is always public static final by default.
