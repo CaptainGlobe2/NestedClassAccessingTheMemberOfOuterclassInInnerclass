@@ -20,7 +20,7 @@ public class singleton {
         ton t1;
         t1=ton.getInstant();
         ton t2;
-        t1.getInstant();
+       // t1.getInstant();
         t2=ton.getInstant();
         t1.message();
         t2.message();
