@@ -30,3 +30,4 @@ public class JavaClassReflection {
 }
 //the output of the program doesnot show the modifier becuase the class of dog is in the same class of main if you want a modifier public you have to make a seperate file of superclas and dog class of another file not in the main class file
 //modifiers are int type consider by jvm so first i get modifer in modifier var and i changed using toString method 
+//using the reflection we also get the info about the methods present in the class
