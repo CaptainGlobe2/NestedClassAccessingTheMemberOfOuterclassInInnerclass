@@ -65,3 +65,6 @@ public class Enum {
   }
 }
  */
+
+
+ //we can override the tostring method in enum but we cannot override the name method in the enum because it is final
