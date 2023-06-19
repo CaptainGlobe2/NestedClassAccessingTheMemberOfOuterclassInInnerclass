@@ -11,7 +11,7 @@ class table{
         }
     }
 }
-class add{
+class add extends Thread{
     void run(int n){
         for(int i=1;i<=5;i++){
             System.out.println(i+n);
@@ -41,7 +41,8 @@ public class sync {
         };
         th1.start();
         th2.start();
-        th1.join();
+        //th1.join();
+        //th2.join();
         a1.run(2);
     }
 }
