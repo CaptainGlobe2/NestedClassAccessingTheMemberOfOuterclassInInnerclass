@@ -35,7 +35,7 @@ public class MultiThreadingdemo {
         t1.start();//ater calling this method there was no relation between in the thread class to db
         //db.start(); after using runnable its not working  because they does not define anything in the runnable interface about the run method they use abstract method for run so we have to create the thread class in the main method
         u1.start();
-        t1.join();
+        t1.join(); 
         //db.join();
         u1.join();//after using join the jvm cosider to complete the above thread
         System.out.println("last message");//but in the main method the thread start priniting this method at first because it consider the above both are programm of others and print this first if wee want to make it order use join

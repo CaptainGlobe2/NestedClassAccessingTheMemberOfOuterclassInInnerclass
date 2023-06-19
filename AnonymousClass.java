@@ -14,7 +14,7 @@ class AnonymousDemo{
     };
     s1.display();
    }
-}
+} 
 
 public class AnonymousClass {
     public static void main(String[]args){
