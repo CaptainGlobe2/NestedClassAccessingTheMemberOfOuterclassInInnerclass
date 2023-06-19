@@ -43,6 +43,6 @@ public class sync {
         th2.start();
         //th1.join();
         //th2.join();
-        a1.run(2);
+        a1.run(2);//i am just trying to use the thread and sync in the same programm
     }
 }
