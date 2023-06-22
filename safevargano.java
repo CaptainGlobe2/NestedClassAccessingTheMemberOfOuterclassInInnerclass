@@ -15,3 +15,4 @@ public class safevargano {
 
     }
 }
+//if we use the varagrs annotation to this programm before the method this program does not shows warning
